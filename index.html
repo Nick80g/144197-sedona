@@ -3,103 +3,146 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <article class="page">
-      <header>
-        <nav>
+    <div class="conteiner">
+      <header class="main-header">
+        <nav class="navigation">
           <ul>
-            <li>ИНФОРМАЦИЯ</li>
-            <li>ФОТО И ВИДЕО</li>
-            <li>КАРТА ШТАТА</li>
-            <li>ГОСТИНТЦЫ</li>
+            <li><a href="#">Информация</a></li>
+            <li><a href="#">Фото и видео</a></li>
+            <li><a href="#">Карта штата</a></li>
+            <li><a href="#">Гостиницы</a></li>
           </ul>
+          <figure>
+            <img src="#" class="logo" alt="logo">
+          </figure>
         </nav>
-        <div class="greeting">
-          <p class="welcome">welcome</p>
-          <p class="gorgeous">to the gorgeous</p>
-          <p class="sedona">sedona</p>
-          <p class="quote">"Because the Grand Canyon sucks"</p>
+        <div class="background">
+          <figure class="welcome">
+            <img src="img/welcome.png" class="text">
+          </figure>
+        </div>
+        <div class="promo">
+          <h2 class="promo-title">Седона - небольшой городок в Аризоне,
+          заслуживающий большего!</h2>
+          <p class="promo-text">Рассмотрим 5 причин, по которым седона круче,
+          чем Гранд Каньон</p>
         </div>
       </header>
-      <section class="intro">
-        <h2>СЕДОНА - НЕБОЛБШОЙ ГОРОДОК В АРИЗОНЕ,<br>
-              ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h2>
-        <p>РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН!</p>
-      </section>
-      <section class="about">
-        <div class="true">
-          <h2>НАСТОЯЩИЙ ГОРОДОК<h2>
-          <p>- №1 -</p>
-          <p>СЕДОНА - НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ,<br>
-                  ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+      <main class="page-main">
+        <div class="reasons-row">
+          <section class="main-reasons true">
+            <h2 class="true-title">Настоящий городок</h2>
+            <span class="true-number">- №1 -</span>
+            <p class="true-text">Седона - не атракцион для туристов, там течет
+              своя жизнь</p>
+          </section>
+          <figure class="house">
+            <img src="img/house.jpg" alt="house" width="800px" height="254px">
+          </figure>
         </div>
-        <img src="#" alt="View">
-        <div class="recomendation">
-          <div class="housing">
-            <h2>ЖИЛЬЕ</h2>
-            <p>РЕКОМЕНДУЕМ ПОЖИТЬ ВНАСТОЯЩЕМ<br>
-                  МОТЕЛЕ, ВСЕ КАК В КИНО!</p>
+        <div class="reasons">
+          <div class="reasons-row">
+            <section class="reason reason-house">
+              <h2 class="reason-title">Жильё</h2>
+              <p class="reason-text">Рекомендуем пожить в настоящем мотеле
+              , все как в кино!</p>
+            </section>
           </div>
-          <div class="food">
-            <h2>ЕДА</h2>
-            <p>ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР,<br>
-                  ВЫ НЕ РАЗОЧАРУЕТЕСЬ!</p>
+          <div class="reasons-row">
+            <section class="reason reason-food">
+              <h2 class="reason-title">Еда</h2>
+              <p class="reason-text">Всегда заказывайте фирменный бургер,
+              вы не разочаруетесь!</p>
+            </section>
           </div>
-          <div class="gifts">
-            <h2>СУВЕНИРЫ</h2>
-            <p>НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО<br>
-                      ПРОИЗВОДСТВА!</p>
+          <div class="reasons-row">
+            <section class="reason reason-gift">
+              <h2 class="reason-title">Сувениры</h2>
+              <p class="reason-text">Не только китайского, но и местного
+              производства!</p>
+            </section>
           </div>
-      </section>
-      <section class="about">
-        <img src="#" alt="rocks">
-        <div class="bridge">
-          <h2>ТАМ ЕСТЬ<br>
-            МОСТ ДЬЯВОЛА<h2>
-          <p>- №2 -</p>
-          <p>ДА , ПО НЕМУ МОЖНО ПРОЙТИ ЕСЛИ КОНЕЧНО<br>
-                  ВЫ ОСМЕЛИТЕСЬ</p>
         </div>
-        <div class="benefits">
-          <div class="area">
-            <h2>НЕБОЛЬШАЯ<br>
-                ПЛОЩАДЬ</h2>
-            <p>- №3 -</p>
-            <p>ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ<br>
-                НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</p>
-          </div>
-          <div class="road">
-            <h2>КРАСИВАЯ<br>
-                ДОРОГА</h2>
-            <p>- №4 -</p>
-            <p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ<br>
-                         НЕ СКУЧНО!</p>
-          </div>
-          <div class="tourists">
-            <h2>МАЛО<br>
-             ТУРИСТОВ</h2>
-               <p>- №5 -</p>
-            <p>БОЛЬШЕНСТВО ЕДЕТ В ГРАНД КАНЬОН И<br>
-                    ТОЛПИТСЯ ТАМ</p>
-          </div>
-      </section>
-      <section class="form">
-        <div class="head">
-          <h2>ЗАИНТЕРЕСОВАЛИСЬ?</h2>
-          <p>УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ,<br>
-          И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ </p>
+        <div class="reasons-row invert">
+          <section class="main-reasons true">
+            <h2 class="true-title">Там есть мост дьявола</h2>
+            <span class="true-number">- №2 -</span>
+            <p class="true-text">Да, по нему можно пройти! Если конечно вы
+              осмелитесь</p>
+          </section>
+          <figure class="bridge">
+            <img src="img/rocks.jpg" alt="bridge" width="800px" height="254px">
+          </figure>
         </div>
-        <img src="map" alt="map">
-        <div class="search">
-          <div class="name">
-            <h2>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ<h2>
-          </div>     
+        <div class="reasons">
+          <div class="reasons-row grey">
+            <section class="reason reason-area">
+              <h2 class="reason-title">Небольшая площадь</h2>
+              <span class="reason-number">-№3-</span>
+              <p class="reason-text">Все достопримечательности находятся
+                близко</p>
+            </section>
+          </div>
+          <div class="reasons-row">
+            <section class="reason reason-road">
+              <h2 class="reason-title">Красивая дорога</h2>
+              <span class="reason-number">-№4-</span>
+              <p class="reason-text">Ехать в Седону из Лас-Иегаса совсем не
+                скучно!</p>
+            </section>
+          </div>
+          <div class="reasons-row">
+            <section class="reason reason-tourist">
+              <h2 class="reason-title">Мало туристов</h2>
+              <span class="reason-number">-№5-</span>
+              <p class="reason-text">Большенство едет в Гранд Каньон и
+              толпится там</p>
+            </section>
+          </div>
+        </div>
+        <div class="intresting">
+          <h2 class="interesting-title">Заинтересовались?</h2>
+          <p class="interesting-text">Укажите предполагаемые даты поездки,<br>
+            и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+          <button type="submit">Поиск гостиници в Седоне</button>
+        </div>
+        <div class="map">
+          <div id="map-canvas" class="map-canvas">
+            <img src="#" alt="map">
+          </div>
+          <footer>
+            <div class="hashtag">
+              <a href="#">#visitsedona</a>
+            </div>
 
-
-
-
-
-
+            <div class="social-block">
+              <a href="#" class="twitter">
+              <a href="#" class="facebook">
+              <a href="#" class="youtube">
+            </div>
+            <div class="author">
+              website by
+              <a href="#"><img src="#" alt="icon"></a>
+            </div>
+          </footer>
+        </div>
+      </main>
+      <form class="search-date">
+        <p class="date-text">Дата заезда:</p>
+        <input type="date" name="first-date" id="first-date">
+        <p class="date-text">Дата выезда:</p>
+        <input type="date" name="second-date" id="second-date">
+      </form>
+      <form class="search-people"
+        <p class="date-text">Взрослые:</p>
+        <input type="number" name="adult" id="adult">
+        <p class="date-text">Дети:</p>
+        <input type="number" name="children" id="children">
+        <button type="submit">Найти</button>
+      </form>
+    </main>
   </body>
 </html>
