@@ -1,0 +1,40 @@
+body  {
+ font-size: 14px;
+ font-weight:;
+ line-height 26px:
+ font-family: PTSans;
+ color:
+}
+h1 {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+  font-family: PTSans;
+  color:
+}
+h2 {
+  font-size:;
+  font-weight:;
+  line-height:
+  font-family: PTSans;
+  color:
+}
+.conteiner {
+  width: 93.75%;
+  margin: 0 auto;
+  background-color: yellow;
+}
+.main-header {
+  width: 100%;
+  min-height: 565px;
+  background-color:blue;
+
+}
+.navigation {
+  min-height: 57px;
+  background-color: yellow;
+}
+.promo {
+  min-height: 207px;
+  background-color: green;
+}
