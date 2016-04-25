@@ -4,6 +4,8 @@ body  {
  line-height 26px:
  font-family: PTSans;
  color:
+ margin: 0;
+ padding: 0;
 }
 h1 {
   font-size: 21px;
@@ -19,13 +21,12 @@ h2 {
   font-family: PTSans;
   color:
 }
-.conteiner {
+.container {
   width: 93.75%;
   margin: 0 auto;
   background-color: yellow;
 }
 .main-header {
-  width: 100%;
   min-height: 565px;
   background-color:blue;
 
@@ -34,7 +35,14 @@ h2 {
   min-height: 57px;
   background-color: yellow;
 }
+.user {
+  float: right;
+}
 .promo {
-  min-height: 207px;
+  min-height: 216px;
   background-color: green;
+}
+.reasons-row {
+  min-height: 256px;
+  background-color: yellow;
 }
