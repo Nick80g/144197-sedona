@@ -3,9 +3,9 @@ body  {
  font-weight:;
  line-height 26px:
  font-family: PTSans;
- color:
+ color: black;
  margin: 0;
- padding: 0;
+
 }
 h1 {
   font-size: 21px;
@@ -20,29 +20,127 @@ h2 {
   line-height:
   font-family: PTSans;
   color:
+  margin: 0;
+}
+ul {
+  margin: 0;
 }
 .container {
   width: 93.75%;
   margin: 0 auto;
-  background-color: yellow;
+  outline: 2px solid red;
 }
 .main-header {
   min-height: 565px;
-  background-color:blue;
+  outline: 2px solid red;
 
 }
 .navigation {
   min-height: 57px;
-  background-color: yellow;
-}
-.user {
-  float: right;
+  outline: 2px solid red;
 }
 .promo {
   min-height: 216px;
-  background-color: green;
+  outline: 2px solid red;
 }
+
 .reasons-row {
   min-height: 256px;
-  background-color: yellow;
+  outline: 2px solid red;
+  width: 100%;
+  padding: 1px;
+}
+.true {
+  float: left;
+  width: 33.33%;
+  outline: 2px solid green;
+  min-height: 256px;
+
+}
+.house {
+  float: right;
+  width: 66.66%;
+  outline: 2px solid blue;
+  margin: 0;
+}
+.reason {
+  width: 33.33%;
+  float: left;
+  outline: 2px solid ;
+  min-height: 256px;
+}
+.invert {
+  float: right;
+}
+.bridge {
+  margin: 0;
+}
+.intresting {
+  min-height: 291px;
+  outline: 1px solid black;
+  padding: 1px;
+}
+.interest-title {
+  margin: 0;
+}
+.promo {
+  border: 1px solid black;
+}
+.map {
+  min-height: 593px;
+}
+footer {
+  margin-top: 473px;
+  outline: 1px solid blue;
+  min-height: 120px;
+}
+.refer {
+  float: left;
+  outline: 1px solid red;
+}
+.hashtag {
+  width: 26%;
+}
+.social-block {
+  width: 30%;
+  margin-left: 7.33%;
+}
+.author {
+  width: 20.08%;
+  margin-left: 7.33%;
+}
+.inner-header {
+  min-height: 273px;
+  outline: 1px solid blue;
+}
+.head {
+  min-height: 87px;
+  outline: 1px solid red;
+}
+.line {
+  display: inline-block;
+  outline: 1px solid black;
+  float: left;
+  text-align: center;
+}
+.ref-sort {
+  display: inline-block;
+  outline: 1px solid black;
+}
+.arrows {
+  float: right;
+  outline: 1px solid red;
+  min-height: 20px;
+  width: 20.08%;
+}
+.rate-row {
+  min-height: 152px;
+  outline: 1px solid blue;
+  padding: 1px;
+}
+.inner-footer {
+  margin: 0;
+}
+.cost {
+  padding: 1px;
 }
