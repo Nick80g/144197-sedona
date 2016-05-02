@@ -1,9 +1,12 @@
 body  {
  font-size: 14px;
- font-weight:;
  line-height 26px:
- font-family: PTSans;
+ font-family: "PTSans","Arial",sans-serif;
+ font-weight: 700;
  color: black;
+ text-transform: uppercase;
+ background-color: #ffffff;
+ min-width: ;
  margin: 0;
 
 }
@@ -14,80 +17,146 @@ h1 {
   font-family: PTSans;
   color:
 }
-h2 {
-  font-size:;
-  font-weight:;
-  line-height:
-  font-family: PTSans;
-  color:
+
+ul {
   margin: 0;
 }
-ul {
+figure {
   margin: 0;
 }
 .container {
   width: 93.75%;
   margin: 0 auto;
-  outline: 2px solid red;
+  box-shadow: ;
 }
 .main-header {
   min-height: 565px;
-  outline: 2px solid red;
+
+}
+.navigation ul {
+  padding: 0;
 
 }
 .navigation {
   min-height: 57px;
-  outline: 2px solid red;
+  position: relative;
 }
-.promo {
-  min-height: 216px;
-  outline: 2px solid red;
+.navigation li {
+  list-style: none;
+  display: inline-block;
+  margin-left: ;
+  margin-top: 16px;
+}
+.navigation a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: PTSans Bold;
+  color: black;
+}
+.navigation li:nth-child(3) {
+  margin-left: 390px;
+}
+.navigation li:first-child {
+  margin-left: 73px;
+}
+.navigation li:nth-child(4) {
+  margin-left: 161px;
+}
+.logo {
+  position: absolute;
+  left: 532px;
+  top: 0;
+  z-index: 10;
+}
+.background {
+  background: black url("img/background.jpg") no-repeat center top;
+  min-height: 509px;
+  position: relative;
+  padding-top: 76px;
+  padding-left: 371px;
 }
 
+.promo {
+  min-height: 216px;
+  background-color: white;
+}
+.promo-title {
+  margin-left: 382px;
+  margin-top: 65px;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: black;
+}
+.promo-text {
+  margin-left: 357px;
+}
 .reasons-row {
   min-height: 256px;
-  outline: 2px solid red;
   width: 100%;
-  padding: 1px;
 }
 .true {
   float: left;
   width: 33.33%;
-  outline: 2px solid green;
-  min-height: 256px;
+  min-height: 254px;
+  background-color: #81b3d2;
+  color: white;
 
 }
 .house {
   float: right;
   width: 66.66%;
-  outline: 2px solid blue;
   margin: 0;
 }
 .reason {
   width: 33.33%;
   float: left;
-  outline: 2px solid ;
   min-height: 256px;
+}
+
+
+
+.bridge {
+  margin: 0;
+  float: left;
 }
 .invert {
   float: right;
 }
-.bridge {
-  margin: 0;
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: ;
+  clear: both;
+  background-color: ;
+}
+.reasons-row {
+  outline: 2px solid red;
+}
+.grey {
+  background-color: #eeeeee;
+
 }
 .intresting {
   min-height: 291px;
-  outline: 1px solid black;
-  padding: 1px;
 }
 .interest-title {
   margin: 0;
 }
-.promo {
-  border: 1px solid black;
+.search {
+  width: 48%;
+  min-height: 87px;
+  background-color: #766357;
+  color: white;
+  font-size: 21px;
+  text-transform: uppercase;
 }
 .map {
   min-height: 593px;
+  background: #f2f1ef url("img/map.jpg") no-repeat;
 }
 footer {
   margin-top: 473px;

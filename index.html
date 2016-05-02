@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic' rel='stylesheet' type='text/css'>" rel="stylesheet">
     <link href="css/normolize.css" rel="stylsheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <div class="container">
@@ -17,7 +18,7 @@
             <li><a href="#">Гостиницы</a></li>
           </ul>
           <figure>
-            <img src="#" class="logo" alt="logo">
+            <a href="#"><img src="img/logo.png" class="logo" alt="logo"></a>
           </figure>
         </nav>
         <div class="background">
@@ -28,7 +29,7 @@
       </header>
       <main class="page-main">
         <div class="promo">
-          <h2 class="promo-title">Седона - небольшой городок в Аризоне,заслуживающий большего!</h2>
+          <h2 class="promo-title"><pre>Седона - небольшой городок в Аризоне,<br>      заслуживающий большего!</pre></h2>
           <p class="promo-text">Рассмотрим 5 причин, по которым седона круче,  чем Гранд Каньон</p>
         </div>
         <div class="reasons-row ">
@@ -61,33 +62,33 @@
             </section>
           </div>
         </div>
-        <div class="reasons-row ">
-          <section class="main-reasons true invert">
+        <div class="reasons-row clearfix ">
+          <section class="main-reasons true invert ">
             <h2 class="true-title">Там есть мост дьявола</h2>
             <span class="true-number">&ndash №2 &ndash</span>
             <p class="true-text">Да, по нему можно пройти! Если конечно вы  осмелитесь</p>
           </section>
-          <figure class="bridge invert">
+          <figure class="bridge invert ">
             <img src="img/rocks.jpg" alt="bridge" width="800px" height="254px">
           </figure>
         </div>
-        <div class="reasons-row">
-          <div class="reasons grey">
-            <section class="reason reason-area">
+        <div class="reasons-row clearfix">
+          <div class="reasons">
+            <section class="reason reason-area grey">
               <h2 class="reason-title">Небольшая площадь</h2>
               <span class="reason-number">&ndash №3 &ndash</span>
               <p class="reason-text">Все достопримечательности находятся  близко</p>
             </section>
           </div>
           <div class="reasons">
-            <section class="reason reason-road">
+            <section class="reason reason-road grey">
               <h2 class="reason-title">Красивая дорога</h2>
               <span class="reason-number">&ndash №4 &ndash</span>
               <p class="reason-text">Ехать в Седону из Лас-Иегаса совсем не  скучно!</p>
             </section>
           </div>
           <div class="reasons">
-            <section class="reason reason-tourist">
+            <section class="reason reason-tourist grey">
               <h2 class="reason-title">Мало туристов</h2>
               <span class="reason-number">&ndash №5 &ndash</span>
               <p class="reason-text">Большенство едет в Гранд Каньон и  толпится там</p>
@@ -97,7 +98,7 @@
         <div class="intresting">
           <h2 class="interesting-title">Заинтересовались?</h2>
           <p class="interesting-text">Укажите предполагаемые даты поездки,<br>  и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-          <button type="submit">Поиск гостиници в Седоне</button>
+          <button type="submit" class="search">Поиск гостиници в Седоне</button>
         </div>
         <div class="map">
           <div id="map-canvas" class="map-canvas">
