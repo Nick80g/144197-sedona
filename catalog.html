@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/normolize.css" rel="stylsheet">
+  </head>
+  <body>
+    <div class="container">
+      <header class="inner-header">
+        <nav class="navigation">
+          <ul>
+            <li><a href="#">Информация</a></li>
+            <li><a href="#">Фото и видео</a></li>
+            <li><a href="#">Карта штата</a></li>
+            <li><a class="active" href="#">Гостиницы</a></li>
+          </ul>
+          <figure>
+            <img src="#" class="logo" alt="logo">
+          </figure>
+        </nav>
+        <div class="filters">
+          <div class="checkboxes">
+            <form>
+              <div class="infrastructure">
+                <h2 class="title-checkboxes">Инфраструктура:</h2>
+                <input type="checkbox" name="pool" id="pool" checked>
+                <label for="pool">Бассейн</label>
+                <input type="checkbox" name="parking" id="parking">
+                <label for="parking">Парковка</label>
+                <input type="checkbox" name="WI-FI" id="WI-FI">
+                <label for="WI-FI">WI-FI</label>
+              </div>
+              <div class="housing">
+                <h2 class="title-checkboxes">Жилье:</h2>
+                <input type="checkbox" name="hotel" id="hotel" checked>
+                <label for="hotel">Гостиница</label>
+                <input type="checkbox" name="motel" id="motel" checked>
+                <label for="motel">Мотель</label>
+                <input type="checkbox" name="ppartment" id="apartment" checked>
+                <label for="apartment">Апартаменты</label>
+              </form>
+            </div>
+            <div class="cost">
+              <h2 class="title-cost">Стоимость в сутки(Р):</p>
+              <span class="range-cost from">от 0</span>
+              <span class="range-cost to"> до 3000</span>
+              <input type="range" name="range-cost-line" id="range-cost-line">
+              <button type="submit">Показать</button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main-catalog">
+        <div class="results">
+          <div class="head">
+            <h3 class="find-title line">Найдено:</h3>
+            <span class="number line">3</span>
+            <div class="sort">
+              <ul class="sort-list ">
+                <li class="line"><h4 class="title-sort">Сортровка:</h4></li>
+                <li class="line"><a class="ref-sort">По цене</a></li>
+                <li class="line"><a class="ref-sort">По типу</a></li>
+                <li class="line"><a class="ref-sort">По рейтингу</a></li>
+              </ul>
+            </div>
+            <div class="arrows line">
+              <a class="ref-arrows"></a>
+              <a class="ref-arrows"></a>
+            </div>
+          </div>
+          <div class="rate">
+            <div class="rate-row">
+              <figure class="image">
+                <img src="#" alt="amara">
+              </figure>
+              <section class="rating">
+                <h2 class="title-rating">Amara resort & spa</h2>
+                <span class="hotels">Гостиница</span>
+                <span class="cost"> 3500 Р.</span>
+                <div class="refer">
+                  <a class="content" href="#">Подробнее</a>
+                  <a class="reserve" href="#">Забронировать</a>
+                </div>
+                <div class="value">
+                  <div class="stars"></div>
+                  <p class="text-value">Рейтинг:8,5</p>
+                </div>
+              </div>
+              <div class="rate-row">
+                <figure class="image">
+                  <img src="#" alt="desert">
+                </figure>
+                <section class="rating">
+                  <h2 class="title-rating">Desert quail inn</h2>
+                  <span class="hotels">Мотель</span>
+                  <span class="costs"> от 2000 Р.</span>
+                  <div class="refer">
+                    <a class="content" href="#">Подробнее</a>
+                    <a class="reserve" href="#">Забронировать</a>
+                  </div>
+                  <div class="value">
+                    <div class="stars"></div>
+                    <p class="text-value">Рейтинг:8,9</p>
+                  </div>
+                </div>
+                <div class="rate-row">
+                  <figure class="image">
+                    <img src="#" alt="desert">
+                  </figure>
+                  <section class="rating">
+                    <h2 class="title-rating">Villas at Poco Diablo</h2>
+                    <span class="hotels">Апартаменты</span>
+                    <span class="costs"> от 4500 Р.</span>
+                    <div class="refer">
+                      <a class="content" href="#">Подробнее</a>
+                      <a class="reserve" href="#">Забронировать</a>
+                    </div>
+                    <div class="value">
+                      <div class="stars"></div>
+                      <p class="text-value">Рейтинг:9,2</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </main>
+          <footer class="inner-footer">
+            <div class="hashtag refer">
+              <a href="#">#visitsedona</a>
+            </div>
+
+            <div class="social-block refer">
+              <a href="#" class="twitter">1</a>
+              <a href="#" class="facebook">2</a>
+              <a href="#" class="youtube">3</a>
+            </div>
+            <div class="author refer">
+              <span class="icon-academy">website by</span>
+              <a href="#"><img src="#" alt="icon"></a>
+            </div>
+          </footer>
+        </div>
+      </body>
