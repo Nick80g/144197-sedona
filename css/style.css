@@ -1,28 +1,26 @@
 body  {
  margin: 0;
- font-family: "PTSans Bold","Arial",sans-serif;
- font-weight: 700;
+ font-family: "PT Sans",Arial,sans-serif;
+ font-weight: 400;
  font-size: 14px;
  color: #333333;
  text-transform: uppercase;
  background-color: #f2f2f2;
- line-height 26px:
- margin: 0;
-
+ line-height: 26px;
 }
 h1 {
   font-size: 21px;
   font-weight: bold;
   line-height: 26px;
-
-
 }
-
 ul {
   margin: 0;
 }
 figure {
   margin: 0;
+}
+img {
+  display: block;
 }
 .container {
   width: 100%;
@@ -34,53 +32,38 @@ figure {
 }
 .main-header {
   min-height: 565px;
-
 }
 .navigation ul {
   padding: 0;
-
 }
 .navigation {
   min-height: 57px;
   position: relative;
   width: 100%;
-  padding-left: 73px;
-  padding-right: 73px;
 }
 .navigation li {
   list-style: none;
-  display: inline-block;
-  margin-left: ;
   margin-top: 16px;
-  width: ;
+  width: 20%;
   text-align: center;
-}
-.navigation li:nth-child(3) {
-  margin-left: 197px;
-  float: right;
+  float: left;
 }
 .navigation li:nth-child(2) {
-  margin-left: 141px;
-
-}
-.navigation li:nth-child(4) {
-  margin-left: 100px;
-  float: right;
+  margin-right: 20%;
 }
 .navigation a {
   text-decoration: none;
   font-size: 14px;
   font-weight: bold;
-  font-family: "PTSans Bold";
+  font-family: "PT Sans";
   color: #000000;
 }
 .navigation a:hover {
   color: #81b3d2;
 }
-
 .logo {
   position: absolute;
-  left: 532px;
+  left: 44.2%;
   top: 0;
   z-index: 10;
 }
@@ -88,8 +71,10 @@ figure {
   background: black url("../img/background.jpg") no-repeat center top;
   min-height: 509px;
   position: relative;
-  padding-top: 76px;
-  padding-left: 371px;
+  padding-top: 1px;
+}
+.text {
+  margin: 77px auto 0 auto;
 }
 .background::after {
   content: " ";
@@ -116,6 +101,8 @@ figure {
 
 }
 .promo-text {
+  font-family: "PT Sans";
+  font-weight: 400;
   color: #333333;
   margin-top: 34px;
   margin-bottom: 0;
@@ -135,12 +122,26 @@ figure {
 
 }
 .true-title {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 21px;
   margin-top: 57px;
   margin-bottom: 26px;
 }
 .true-text {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
   margin-top: 24px;
 
+}
+.true-number {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
 }
 .house {
   float: right;
@@ -157,29 +158,32 @@ figure {
   text-align: center;
 }
 .reason-title {
-  margin-top: 164px;
+  margin-top: 32px;
 }
-.reason {
-  position: relative;
+.reason-text {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 24px;
+  color: #333333;
 }
 .reason::before {
   content: " ";
   display: block;
-  position: absolute;
-  width: 76px;
+  width: 33%;
   height: 71px;
-  left: 159px;
-  top: 57px;
+  margin: 62px auto 0 auto;
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
 }
 .reason-house::before {
-  width: 75px;
+  width: 74px;
   height: 72px;
   background-position: -10px -445px;
 }
 .reason-gift::before {
-  width: 64px;
+  width: 74px;
   height: 76px;
   background-position: -10px -349px;
 
@@ -197,7 +201,6 @@ figure {
 .invert {
   float: right;
 }
-
 .clearfix::after {
   content: " ";
   display: block;
@@ -206,15 +209,12 @@ figure {
   clear: both;
   background-color: ;
 }
-
 .reason-grey {
   background-color: #eeeeee;
   width: 33.33%;
   float: left;
   min-height: 257px;
   text-align: center;
-
-
 }
 .reason-title-grey {
   margin-top: 50px;
@@ -222,6 +222,20 @@ figure {
 }
 .reason-text-grey {
   margin-top: 29px;
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 24px;
+  color: #333333;
+}
+.reason-number-grey {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 24px;
+  color: #333333;
 }
 .intresting {
   position: relative;
@@ -234,36 +248,46 @@ figure {
   margin-bottom: 35px;
 }
 .interesting-text {
-  margin-bottom: 0;
+  margin-bottom: 36px;
+  margin-top: 0;
 }
 .search {
-  position: absolute;
-  left: 26.33%;
-  bottom: 0;
   display: block;
-  width: 568px;
-  height: 86px;
+  padding: 30px 0;
+  width: 47.33%;
+  margin: 0 auto;
   background-color: #766357;
   color: white;
   font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
-
 }
 .map {
   min-height: 593px;
   background: #f2f1ef url("../img/map.jpg") no-repeat;
   position: relative;
 }
+.map iframe {
+  width: 100%;
+}
 .search-hotel {
+  display: block;
   width: 568px;
-  height: 287px;
-  padding: 54px;
-  background-color: #ffffff;
-  position: absolute;
+  height: 395px;
+  background-color: #644e62;
+  position: ;
   bottom: -1800px;
   left: 316px;
+  padding: 1px;
+}
+.form-center {
+  width: 80.63%;
+  margin: 0 auto;
+  margin-top: 54px;
+  margin-bottom: 54px;
 }
 
 .form-row {
@@ -285,14 +309,27 @@ input[type="date"]:hover {
 input[type="date"]:focus {
   border: 1px solid #ebebeb;
 }
+.date-text {
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  font-family: "PT Sans";
+}
+
+.number-row {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+.number-row:first-child {
+  text-align: left;
+}
 input[type="number"] {
   width: 114px;
   background-color: #f2f2f2;
   height: 100%;
   border: none;
-}
-input[type="number"] {
-  margin-left: 41px;
 }
 .btn-search {
   width: 458px;
@@ -305,7 +342,6 @@ input[type="number"] {
   font-size: 21px;
   font-weight: bold;
   line-height: 26px;
-  margin: 0 55px;
 }
 .btn-search:hover {
   background-color: #669ec0;
@@ -315,36 +351,30 @@ input[type="number"] {
   color: #94b9d2;
 }
 footer {
-  margin-top: 473px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   min-height: 120px;
   background-color: #fefefe;
   opacity: 0.8;
 }
-.refer {
+.footer-content {
+  position: relative;
+  width: 33.333333%;
+  min-height: 120px;
   float: left;
+  text-align: center;
 
 }
-.hashtag {
+.footer-content .hashtag {
   display: block;
-  text-decoration: none;
-  width: 240px;
-  margin-left: 73px;
-  margin-top: 49px;
-  vertical-align: middle;
-  text-align: center;
-  font-family: "PTSans","Arial",sans-serif;
+  font-family: "PT Sans",Arial,sans-serif;
   font-size: 21px;
   font-weight: bold;
   line-height: 26px;
   color: black;
-
-
-}
-.social-block {
-  width: 575px;
-  padding-top: 36px;
-  padding-bottom: 36px;
-  text-align: center;
+  text-decoration: none;
+  margin-top: 49px;
 }
 .social-block-icon {
   position: relative;
@@ -354,7 +384,7 @@ footer {
   background-color: #81b3d2;
   opacity: 1;
   margin-right: 6px;
-
+  margin-top: 36px;
 }
 .social-block-icon:hover {
   background-color: #669ec0;
@@ -387,21 +417,21 @@ footer {
   height: 16px;
   background-position: -10px -646px;
 }
-.author {
-  width: 241px;
+.icon-academy-center {
   position: relative;
+  width: 195px;
+  height: 40px;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 41px;
 }
 .icon-academy-text {
-  display: block;
-  width: 113px;
-  margin-top: 49px;
-  text-align: center;
-
+  vertical-align: middle;
 }
 .icon-academy {
   position: absolute;
-  left: 102px;
-  top: 41px;
+  bottom: 0;
+  right: 0;
   display: block;
   width: 113px;
   height: 39px;
@@ -413,18 +443,29 @@ footer {
   min-height: 273px;
 
 }
+.catalog-form {
+  width: 88%;
+  margin: 0 auto;
+}
 .filters {
+  width: 100%;
+  padding: 29px 0;
   background: url("../img/filter-background.jpg");
-  padding: 32px 73px;
   color: #ffffff;
 }
 .infrastructure {
-  width: 241px;
+  width: 25%;
+  float: left;
+}
+.filter-range {
+  width: 50%;
+  float: right;
 }
 .title-filters {
+  font-family: "PT Sans";
   font-size: 16px;
   line-height: 21px;
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 30px;
   margin-top: 0;
 }
@@ -435,8 +476,11 @@ input[type="checkbox"] {
   position: relative;
   display: block;
   margin-left: 39px;
-  margin-bottom: 30px;
+  margin-bottom: 22px;
+  font-family: "PT Sans";
   font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
 
 }
 .table:last-child {
@@ -468,113 +512,84 @@ input[type="checkbox"]:checked + .table::before {
   text-transform: uppercase;
   float: right;
 }
-
 .filter-range-title {
   margin-bottom: 9px;
-
   font-weight: 600;
   font-size: 16px;
   line-height: 21px;
 }
-
 .price-controls {
   position: relative;
-
   height: 36px;
   margin-bottom: 20px;
-
   font-size: 0;
-
   border: 2px solid #ffffff;
   border-radius: 2px;
 }
-
 .price-controls::after {
   content: "";
   position: absolute;
   top: 50%;
   left: 50%;
-
   width: 2px;
   height: 22px;
-
   background: #ffffff;
   transform: translate(-50%, -50%);
 }
-
 .price-controls label {
   display: inline-block;
-
   font-size: 14px;
   line-height: 38px;
   vertical-align: top;
-
   cursor: pointer;
 }
-
 .price-controls .min-price,
 .price-controls .max-price {
   width: 90px;
   padding-left: 65px;
 }
-
 .price-controls input {
   width: 50px;
   margin: 0;
-
   color: inherit;
   font: inherit;
-
   background: none;
   border: none;
   outline: none;
 }
-
 .range-controls {
   position: relative;
-
   margin-bottom: 32px;
 }
-
 .range-controls .scale {
   height: 2px;
-
   background: rgba(255, 255, 255, 0.3);
 }
-
 .range-controls .bar {
   width: 80%;
   height: 2px;
-
   background: #ffffff;
 }
-
 .range-toggle {
   position: absolute;
   top: -9px;
-
   width: 4px;
   height: 4px;
-
   background: #ababab;
   border: 8px solid #ffffff;
   border-radius: 50%;
   box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
   cursor: pointer;
 }
-
 .range-toggle:hover {
   background: #1c4f80;
 }
-
 .range-toggle-min {
   left: 0;
 }
-
 .range-toggle-max {
   left: 80%;
 }
-
 .btn-transparent {
   display: block;
   margin: 0 auto;
@@ -583,42 +598,37 @@ input[type="checkbox"]:checked + .table::before {
   line-height: 20px;
   color: #ffffff;
   text-transform: uppercase;
-
   background: transparent;
   border: 2px solid #ffffff;
   border-radius: 2px;
   outline: none;
   cursor: pointer;
 }
-
 .btn-transparent:hover {
   color: #000000;
-
   background: #ffffff;
 }
 .head {
+  width: 88%;
   min-height: 21px;
   padding: 33px 0;
-  padding-left: 72px;
-
+  margin: 0 auto;
 }
 .head h2{
   margin: 0;
 }
 .line {
-  display: inline-block;
   float: left;
+  list-style: none;
 }
 .number {
-  margin-left: 6px;
   font-size: 21px;
   line-height: 26px;
-  font-weight: bold;
+  font-weight: 700;
 }
 .ref-sort {
-  display: inline-block;
   padding-top: 5px;
-  margin-right: 31px;
+  margin-right: ;
   color: #cacaca;
   border-bottom:  1px dotted #cacaca;
   text-decoration: none;
@@ -627,25 +637,30 @@ input[type="checkbox"]:checked + .table::before {
   color: #81b3d2;
   border-bottom:  1px dotted #81b3d2;
 }
-.sort-list li {
+.sort-list {
+  width: 34.46%;
+  float: left;
+  padding: 0;
+}
+.sort-list a {
   font-size: 12px;
-  font-family: "PTSans Regular","Arial",sans-serif;
+  font-family: "PT Sans",Arial,sans-serif;
   line-height: 18px;
+  font-weight: 400;
 }
 .title-sort {
   display:block;
-  padding-left: 49px;
   padding-top: 5px;
-}
-.ref-sort:first-child {
-  margin-left: 39px;
+  font-size: 12px;
+  font-family: "PT Sans",Arial,sans-serif;
+  line-height: 18px;
+  font-weight: 400;
 }
 .arrows {
-  float: right;
+  float: left;
   min-height: 20px;
-  width: 20.08%;
+  width: 50%;
   position: relative;
-  margin-right: 73px;
 }
 .ref-arrow-down {
   position: absolute;
@@ -655,7 +670,6 @@ input[type="checkbox"]:checked + .table::before {
   height: 10px;
   background-position: -10px -10px;
   right: 0;
-
 }
 .ref-arrow-up {
   position: absolute;
@@ -663,12 +677,11 @@ input[type="checkbox"]:checked + .table::before {
   width: 13px;
   height: 13px;
   background: url("../img/arrow-up.png") no-repeat;
-
 }
 .rate-row {
   min-height: 88px;
   border: 1px solid #e5e5e5;
-  padding: 32px 73px;
+  padding: 30px 73px;
 }
 .left {
   float: left;
@@ -683,10 +696,6 @@ input[type="checkbox"]:checked + .table::before {
 .rating {
   margin-left: 30px;
 }
-.text-catalog {
-  width: 180px;
-  margin-top: 13px;
-}
 .title-rating {
   margin: 0;
   text-decoration: none;
@@ -694,23 +703,28 @@ input[type="checkbox"]:checked + .table::before {
   line-height: 26px;
   font-weight: bold;
   color: #000000;
-
 }
 .title-rating:hover {
   color: #81b3d2;
 }
+.text-catalog {
+  width: 183px;
+  margin-top: 5px;
+}
 .refer-catalog {
-  margin-top: 17px;
+  margin-top: 13px;
   width: 300px;
 }
+
 .refer-catalog a {
   display: inline-block;
   text-decoration: none;
-  padding: 5px 17px;
+  padding: 3px 17px;
   color: #ffffff;
+  font-family: "PT Sans";
   font-size: 14px;
   line-height: 21px;
-  font-weight: bold;
+  font-weight: 700;
 }
 .reserve {
   background-color: #766357;
@@ -747,11 +761,13 @@ input[type="checkbox"]:checked + .table::before {
 .two-stars::before {
   width: 42px;
   height: 17px;
+  transform: translateX(4px);
   background-position: -10px -609px;
 }
 .three-stars::before {
   width: 65px;
   height: 17px;
+  transform: translateX(-23px);
   background-position: -10px -537px;
 }
 .text-value {
@@ -762,6 +778,9 @@ input[type="checkbox"]:checked + .table::before {
 
 }
 .catalog-footer {
+  position: relative;
+
+  width: 100%;
   margin: 0;
 }
 .sprite {

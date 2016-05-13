@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-    <link href="<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic' rel='stylesheet' type='text/css'>" rel="stylesheet">
-    <link href="css/normolize.css" rel="stylsheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic" rel="stylesheet" type="text/css">
+    <link href="css/normalize.css" rel="stylsheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <div class="container">
       <header class="main-header">
-        <nav class="navigation">
+        <nav class="navigation clearfix">
           <ul>
             <li><a class="active" href="#">Информация</a></li>
             <li><a href="#">Фото и видео</a></li>
@@ -32,7 +32,7 @@
           <h2 class="promo-title">Седона - небольшой городок в Аризоне,<br>заслуживающий большего!</h2>
           <p class="promo-text">Рассмотрим 5 причин, по которым седона круче,  чем Гранд Каньон</p>
         </div>
-        <div class="reasons-row ">
+        <div class="reasons-row clearfix">
           <section class="main-reasons true">
             <h2 class="true-title">Настоящий городок</h2>
             <span class="true-number">&ndash; №1 &ndash;</span>
@@ -42,7 +42,7 @@
             <img class="view" src="img/house.jpg" alt="house" width="800" height="257">
           </figure>
         </div>
-        <div class="reasons-row">
+        <div class="reasons-row clearfix">
           <div class="reasons">
             <section class="reason reason-house">
               <h2 class="reason-title">Жильё</h2>
@@ -84,7 +84,7 @@
             <section class="reason-grey reason-road">
               <h2 class="reason-title-grey">Красивая дорога</h2>
               <span class="reason-number-grey">&ndash; №4 &ndash;</span>
-              <p class="reason-text-grey">Ехать в Седону из Лас-Иегаса совсем<br> не  скучно!</p>
+              <p class="reason-text-grey">Ехать в Седону из Лас-Вегаса совсем<br> не  скучно!</p>
             </section>
           </div>
           <div class="reasons">
@@ -102,39 +102,43 @@
         </div>
         <div class="map">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d707136.7169465446!2d-111.9824042309285!3d34.581632488290666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1463033411015" width="1200" height="593" frameborder="0" style="border:0" allowfullscreen></iframe>
-          <footer>
-            <div class="refer">
+          <footer class="clearfix">
+            <div class="footer-content">
               <a class="hashtag" href="#">#visitsedona</a>
             </div>
 
-            <div class="social-block refer">
+            <div class="footer-content">
               <a href="#" class="social-block-icon tweeter"></a>
               <a href="#" class="social-block-icon facebook"></a>
               <a href="#" class="social-block-icon youtube"></a>
             </div>
-            <div class="author refer">
-              <span class="icon-academy-text">website by</span>
-              <a class="icon-academy" href="#"></a>
+            <div class="footer-content">
+              <div class="icon-academy-center">
+                <span class="icon-academy-text">website by</span>
+                <a class="icon-academy" href="#"></a>
+              </div>
             </div>
           </footer>
         </div>
       </main>
       <form class="search-hotel">
-        <div class="form-row">
-          <span class="date-text">Дата заезда:</span>
-          <input type="date" name="first-date" id="first-date" value=" " placeholder="24 апреля 2016">
-        </div>
-        <div class="form-row">
-          <span class="date-text">Дата выезда:</span>
-          <input type="date" name="second-date" id="second-date" value=" " placeholder="4 июля 2016">
-        </div>
-        <div class="form-row">
-          <span class="date-text number-row">Взрослые:</span>
-          <input type="number" class="number-row" name="adult" id="adult">
-          <span class="date-text number-row">Дети:</span>
-          <input type="number" class="number-row" name="children" id="children">
-        </diV>
-        <button class="btn-search" type="submit">Найти</button>
+        <div class="form-center">
+          <div class="form-row">
+            <span class="date-text">Дата заезда:</span>
+            <input type="date" name="first-date" id="first-date" value=" " placeholder="24 апреля 2016">
+          </div>
+          <div class="form-row">
+            <span class="date-text">Дата выезда:</span>
+            <input type="date" name="second-date" id="second-date" value=" " placeholder="4 июля 2016">
+          </div>
+          <div class="form-row">
+            <span class="date-text number-row">Взрослые:</span>
+            <input type="number" class="number-row" name="adult" id="adult">
+            <span class="date-text number-row">Дети:</span>
+            <input type="number" class="number-row" name="children" id="children">
+          </diV>
+          <button class="btn-search" type="submit">Найти</button>
+        </div>  
       </div>
     </form>
   </body>
