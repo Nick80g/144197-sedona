@@ -80,13 +80,13 @@ img {
   padding: 0;
 }
 .navigation {
-  min-height: 57px;
+  min-height: 54px;
   position: relative;
   width: 100%;
 }
 .navigation li {
   list-style: none;
-  margin-top: 16px;
+  margin-top: 14px;
   width: 20%;
   text-align: center;
   float: left;
@@ -145,7 +145,7 @@ img {
 }
 
 .promo {
-  min-height: 216px;
+  min-height: 213px;
   padding-top: 1px;
   text-align: center;
 }
@@ -154,14 +154,14 @@ img {
   line-height: 26px;
   font-weight: bold;
   color: black;
-  margin-top: 64px;
+  margin-top: 57px;
 
 }
 .promo-text {
   font-family: "PT Sans";
   font-weight: 400;
   color: #333333;
-  margin-top: 34px;
+  margin-top: 27px;
   margin-bottom: 0;
 
 }
@@ -183,15 +183,15 @@ img {
   font-weight: 700;
   font-size: 21px;
   line-height: 21px;
-  margin-top: 57px;
-  margin-bottom: 26px;
+  margin-top: 55px;
+  margin-bottom: 22px;
 }
 .true-text {
   font-family: "PT Sans";
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  margin-top: 24px;
+  margin-top: 19px;
 
 }
 .true-number {
@@ -215,14 +215,14 @@ img {
   text-align: center;
 }
 .reason-title {
-  margin-top: 32px;
+  margin-top: 28px;
 }
 .reason-text {
   font-family: "PT Sans";
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  margin-top: 24px;
+  margin-top: 21px;
   color: #333333;
 }
 .reason::before {
@@ -230,7 +230,7 @@ img {
   display: block;
   width: 33%;
   height: 71px;
-  margin: 62px auto 0 auto;
+  margin: 59px auto 0 auto;
   background-image: url("../img/sprite-full.png");
   background-repeat: no-repeat;
 }
@@ -241,13 +241,13 @@ img {
 }
 .reason-gift::before {
   width: 74px;
-  height: 76px;
-  background-position: -10px -1122px;
+  height: 73px;
+  background-position: -4px -1123px;
 
 }
 .reason-food::before {
   width: 74px;
-  height: 70px;
+  height: 72px;
   background-position: -10px -1032px;
 }
 .bridge {
@@ -274,8 +274,9 @@ img {
   text-align: center;
 }
 .reason-title-grey {
-  margin-top: 50px;
-  margin-bottom: 29px;
+  line-height: 21px;
+  margin-top: 46px;
+  margin-bottom: 22px;
 }
 .reason-text-grey {
   margin-top: 29px;
@@ -301,11 +302,12 @@ img {
   padding-top: 1px;
 }
 .interesting-title {
-  margin-top: 57px;
-  margin-bottom: 35px;
+  font-size: 30px;
+  margin-top: 52px;
+  margin-bottom: 27px;
 }
 .interesting-text {
-  margin-bottom: 36px;
+  margin-bottom: 45px;
   margin-top: 0;
 }
 .search {
@@ -317,13 +319,13 @@ img {
   color: white;
   font-size: 21px;
   line-height: 26px;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
 }
 .map {
-  min-height: 593px;
+  height: 593px;
   background: #f2f1ef url("../img/map.jpg") no-repeat;
   position: relative;
 }
@@ -411,7 +413,7 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  min-height: 120px;
+  min-height: 122px;
   background-color: #fefefe;
   opacity: 0.8;
 }
@@ -431,7 +433,7 @@ footer {
   line-height: 26px;
   color: black;
   text-decoration: none;
-  margin-top: 49px;
+  margin-top: 45px;
 }
 .social-block-icon {
   position: relative;
@@ -440,7 +442,7 @@ footer {
   height: 48px;
   background-color: #81b3d2;
   opacity: 1;
-  margin-right: 6px;
+  margin-right: 2px;
   margin-top: 36px;
 }
 .social-block-icon:hover {
@@ -450,7 +452,6 @@ footer {
   background-color: #5496bd;
   color: #88b6d1;
 }
-
 
 .social-block-icon::before {
   content: " ";
@@ -462,11 +463,14 @@ footer {
   background-repeat: no-repeat;
 }
 
+
 .tweeter::before {
+  content: " ";
   width: 17px;
   height: 15px;
   background-position: -10px -574px;
 }
+
 
 .facebook::before {
   width: 10px;
@@ -518,24 +522,22 @@ footer {
 }
 .filters {
   width: 100%;
-  padding: 29px 0;
+  min-height: 164px;
+  padding: 26px 0;
   background: url("../img/filter-background.jpg");
   color: #ffffff;
 }
 .infrastructure {
-  width: 25%;
+  width: 24.2%;
   float: left;
 }
-.filter-range {
-  width: 50%;
-  float: right;
-}
+
 .title-filters {
   font-family: "PT Sans";
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   margin-top: 0;
 }
 input[type="checkbox"] {
@@ -545,7 +547,7 @@ input[type="checkbox"] {
   position: relative;
   display: block;
   margin-left: 39px;
-  margin-bottom: 22px;
+  margin-bottom: 24px;
   font-family: "PT Sans";
   font-size: 14px;
   line-height: 21px;
@@ -576,7 +578,7 @@ input[type="checkbox"]:checked + .table::before {
   background-position: -10px -642px;
 }
 .filter-range {
-  width: 330px;
+  width: 327px;
   color: #ffffff;
   text-transform: uppercase;
   float: right;
@@ -589,7 +591,9 @@ input[type="checkbox"]:checked + .table::before {
 }
 .price-controls {
   position: relative;
-  height: 36px;
+  width: 316px;
+  height: 32px;
+  margin-left: 8px;
   margin-bottom: 20px;
   font-size: 0;
   border: 2px solid #ffffff;
@@ -608,14 +612,18 @@ input[type="checkbox"]:checked + .table::before {
 .price-controls label {
   display: inline-block;
   font-size: 14px;
-  line-height: 38px;
+  line-height: 32px;
   vertical-align: top;
   cursor: pointer;
 }
-.price-controls .min-price,
-.price-controls .max-price {
+.price-controls .min-price {
   width: 90px;
   padding-left: 65px;
+}
+
+.price-controls .max-price {
+  width: 90px;
+  padding-left: 61px;
 }
 .price-controls input {
   width: 50px;
@@ -628,7 +636,7 @@ input[type="checkbox"]:checked + .table::before {
 }
 .range-controls {
   position: relative;
-  margin-bottom: 32px;
+  margin-bottom: 33px;
 }
 .range-controls .scale {
   height: 2px;
@@ -654,7 +662,7 @@ input[type="checkbox"]:checked + .table::before {
   background: #1c4f80;
 }
 .range-toggle-min {
-  left: 0;
+  left: 10px;
 }
 .range-toggle-max {
   left: 80%;
@@ -662,7 +670,7 @@ input[type="checkbox"]:checked + .table::before {
 .btn-transparent {
   display: block;
   margin: 0 auto;
-  padding: 6px 35px;
+  padding: 6px 31px;
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
@@ -680,16 +688,21 @@ input[type="checkbox"]:checked + .table::before {
 .head {
   width: 88%;
   min-height: 21px;
-  padding: 33px 0;
+  padding: 30px 0;
+  padding-bottom: 26px;
   margin: 0 auto;
 }
 .head h2{
   margin: 0;
+  margin-right: 3px;
 }
 .line {
-  width: 25%;
+  width: 20.5%;
   float: left;
   list-style: none;
+}
+.line:nth-child(2) {
+  margin-left: 30px;
 }
 .number {
   font-size: 21px;
@@ -726,9 +739,9 @@ input[type="checkbox"]:checked + .table::before {
 .sort-list {  padding: 0; }
 
 .sort {
-  width: 354px;
+  width: 402px;
   float: left;
-  margin-left: 4.73%;
+  margin-left: 4.5%;
 }
 
 .title-sort {
@@ -745,6 +758,7 @@ input[type="checkbox"]:checked + .table::before {
   min-height: 20px;
   width: 20%;
   position: relative;
+  margin-top: 10px;
 }
 .ref-arrow-down {
   position: absolute;
@@ -766,7 +780,7 @@ input[type="checkbox"]:checked + .table::before {
 
 .ref-arrow-up {
   position: absolute;
-  right: 15px;
+  right: 22px;
   width: 13px;
   height: 13px;
   background: url("../img/sprite-full.png") no-repeat;
@@ -781,9 +795,13 @@ input[type="checkbox"]:checked + .table::before {
   background-position: -10px -337px;
 }
 .rate-row {
-  min-height: 88px;
+  min-height: 90px;
   border: 1px solid #e5e5e5;
-  padding: 30px 73px;
+  padding: 30px 71px;
+}
+.rate-row:first-child,
+.rate-row:nth-child(2) {
+  border-bottom: none;
 }
 .left {
   float: left;
@@ -816,18 +834,17 @@ input[type="checkbox"]:checked + .table::before {
 
 .text-catalog {
   width: 183px;
-  margin-top: 5px;
 }
 
 .refer-catalog {
-  margin-top: 7px;
+  margin-top: 10px;
   width: 300px;
 }
 
 .refer-catalog a {
   display: inline-block;
   text-decoration: none;
-  padding: 3px 17px;
+  padding: 3px 18px;
   color: #ffffff;
   font-family: "PT Sans";
   font-size: 14px;
@@ -836,7 +853,7 @@ input[type="checkbox"]:checked + .table::before {
 }
 .reserve {
   background-color: #766357;
-  margin-right: 6px;
+  margin-left: 3px;
 }
 .reserve:hover {
   background-color: #604e43;
@@ -883,18 +900,18 @@ input[type="checkbox"]:checked + .table::before {
 .two-stars::before {
   width: 42px;
   height: 17px;
-  transform: translateX(4px);
+  transform: translate(4px,-10px);
   background-position: -10px -1417px;
 }
 .three-stars::before {
   width: 65px;
   height: 17px;
-  transform: translateX(-23px);
+  transform: translate(-21px,-10px);
   background-position: -10px -1310px;
 }
 .text-value {
-  margin-top: 47px;
-  padding: 5px 16px;
+  margin-top: 59px;
+  padding: 5px 15px;
   background-color: #f2f2f2;
 
 
