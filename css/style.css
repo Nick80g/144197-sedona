@@ -343,7 +343,8 @@ img { display: block; }
 
 .search-hotel {
   position: absolute;
-  left: 26.41%;
+  left: 50%;
+  margin-right: -238px;
   top: 0;
   display: none;
   width: 568px;
@@ -367,6 +368,7 @@ img { display: block; }
   height: 38px;
   margin-bottom: 30px;
 }
+
 .calendar {
   position: absolute;
   right: 11px;
@@ -404,6 +406,7 @@ input[type="text"]:focus {
 }
 
 .date-text {
+  position: relative;
   margin-top: 7px;
   vertical-align: middle;
   font-size: 14px;
@@ -419,6 +422,28 @@ input[type="text"]:focus {
 }
 
 .number-row:first-child { text-align: left; }
+
+.icon-plus {
+  position: absolute;
+  top: 5px;
+  left: 120px;
+  color: #a9a9a9;
+}
+
+.icon-plus:hover ,
+.icon-minus:hover  { color: #000000; }
+
+.icon-plus:active ,
+.icon-minus:active { color: #81b3d2; }
+
+.icon-minus {
+  position: absolute;
+  top: 5px;
+  left: 180px;
+  color: #a9a9a9;
+}
+
+
 
 input[type="number"] {
   width: 114px;
