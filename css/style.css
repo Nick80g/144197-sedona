@@ -101,6 +101,8 @@ img { display: block; }
 
 .navigation a:hover { color: #81b3d2; }
 
+.navigation a.active { color: #cacaca; }
+
 .navigation a:active { color: #766357; }
 
 .navigation a:hover:active { color: #604e43; }
@@ -341,7 +343,7 @@ img { display: block; }
 
 .search-hotel {
   position: absolute;
-  left: 317px;
+  left: 26.41%;
   top: 0;
   display: none;
   width: 568px;
@@ -354,7 +356,7 @@ img { display: block; }
 }
 
 .form-center {
-  width: 80.63%;
+  width: 81%;
   margin: 0 auto;
   margin-top: 54px;
   margin-bottom: 54px;
@@ -367,8 +369,8 @@ img { display: block; }
 }
 .calendar {
   position: absolute;
-  right: 9px;
-  top: 7px;
+  right: 11px;
+  top: 8px;
   width: 21px;
   height: 22px;
   background-image: url("../img/sprite-full.png");
@@ -402,6 +404,7 @@ input[type="text"]:focus {
 }
 
 .date-text {
+  margin-top: 7px;
   vertical-align: middle;
   font-size: 14px;
   line-height: 26px;
@@ -419,6 +422,7 @@ input[type="text"]:focus {
 
 input[type="number"] {
   width: 114px;
+  margin-right: ;
   background-color: #f2f2f2;
   height: 100%;
   border: none;
@@ -434,6 +438,7 @@ input[type="number"]:focus {
 .btn-search {
   width: 458px;
   height: 58px;
+  margin-top: 23px;
   padding: 18px;
   color: #ffffff;
   font-size: 21px;
