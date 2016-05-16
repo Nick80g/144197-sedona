@@ -343,7 +343,7 @@ img { display: block; }
 
 .search-hotel {
   position: absolute;
-  left: 50%;
+  left: 26.3%;
   margin-right: -238px;
   top: 0;
   display: none;
@@ -425,8 +425,8 @@ input[type="text"]:focus {
 
 .icon-plus {
   position: absolute;
-  top: 5px;
-  left: 120px;
+  top: 3px;
+  left: 130px;
   color: #a9a9a9;
 }
 
@@ -438,8 +438,8 @@ input[type="text"]:focus {
 
 .icon-minus {
   position: absolute;
-  top: 5px;
-  left: 180px;
+  top: 3px;
+  left: 200px;
   color: #a9a9a9;
 }
 
