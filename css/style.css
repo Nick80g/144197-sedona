@@ -701,6 +701,7 @@ input[type="checkbox"]:disabled + .table:before { background-position: -10px -72
 .price-controls input {
   width: 50px;
   margin: 0;
+  margin-top: 5px;
   color: inherit;
   font: inherit;
   background: none;
