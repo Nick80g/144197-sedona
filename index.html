@@ -10,7 +10,7 @@
   <body>
     <div class="container">
       <header class="main-header">
-        <nav class="navigation clearfix">
+        <nav class="navigation nav-index clearfix">
           <ul>
             <li><a class="active" href="index.html">Информация</a></li>
             <li><a href="#">Фото и видео</a></li>
@@ -119,27 +119,44 @@
               </div>
             </div>
           </footer>
+          <form class="search-hotel">
+            <div class="form-center">
+              <div class="form-row clearfix">
+                <div class="calendar"></div>
+                <span class="date-text">Дата заезда:</span>
+                <input type="text" name="first-date" id="first-date" placeholder="24 апреля 2016">
+              </div>
+              <div class="form-row clearfix">
+                <div class="calendar"></div>
+                <span class="date-text">Дата выезда:</span>
+                <input type="text" name="second-date" id="second-date"  placeholder="4 июля 2016">
+              </div>
+              <div class="form-row clearfix">
+                <span class="date-text number-row">Взрослые:</span>
+                <input type="number" class="number-row" name="adult" id="adult">
+                <span class="date-text number-row">Дети:</span>
+                <input type="number" class="number-row" name="children" id="children">
+              </diV>
+              <button class="btn-search" type="submit">Найти</button>
+            </div>
+          </form>
         </div>
       </main>
-      <form class="search-hotel">
-        <div class="form-center">
-          <div class="form-row">
-            <span class="date-text">Дата заезда:</span>
-            <input type="text" name="first-date" id="first-date" placeholder="24 апреля 2016">
-          </div>
-          <div class="form-row">
-            <span class="date-text">Дата выезда:</span>
-            <input type="text" name="second-date" id="second-date"  placeholder="4 июля 2016">
-          </div>
-          <div class="form-row">
-            <span class="date-text number-row">Взрослые:</span>
-            <input type="number" class="number-row" name="adult" id="adult">
-            <span class="date-text number-row">Дети:</span>
-            <input type="number" class="number-row" name="children" id="children">
-          </diV>
-          <button class="btn-search" type="submit">Найти</button>
-        </div>
-      </form>
     </div>
+    <script>
+      var link = document.querySelector(".search");
+
+      var popup = document.querySelector(".search-hotel");
+      var close = popup.querySelector(".btn-search");
+
+      link.addEventListener("click",function(event) {
+        event.preventDefault();
+        popup.classList.add("search-hotel-show");
+      });
+      close.addEventListener("click", function(event) {
+        event.preventDefault();
+        popup.classList.remove("search-hotel-show");
+      });
+    </script>
   </body>
 </html>
