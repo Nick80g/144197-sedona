@@ -470,6 +470,7 @@ input[type="number"]:focus {
   font-weight: bold;
   line-height: 26px;
   text-align : center;
+  text-transform: uppercase;
   border: none;
   background-color:  #81b3d2;
 }
