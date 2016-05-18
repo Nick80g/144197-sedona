@@ -374,6 +374,7 @@ img { display: block; }
 .form-row {
   position: relative;
   height: 38px;
+  width: 460px;
   margin-bottom: 30px;
 }
 
@@ -425,7 +426,7 @@ input[type="text"]:focus {
 }
 
 .number-row {
-  width: 25%;
+  width: 24.5%;
   float: left;
   text-align: center;
 }
@@ -455,7 +456,7 @@ input[type="text"]:focus {
 
 
 input[type="number"] {
-  width: 25%;
+  width: 24.5%;
   background-color: #f2f2f2;
   height: 100%;
   border: none;
