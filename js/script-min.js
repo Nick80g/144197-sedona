@@ -1,0 +1,1 @@
+var link=document.querySelector(".search"),popup=document.querySelector(".search-hotel"),close=popup.querySelector(".btn-search");link.addEventListener("click",function(a){a.preventDefault(),popup.classList.add("search-hotel-show")}),close.addEventListener("click",function(a){a.preventDefault(),popup.classList.remove("search-hotel-show")});

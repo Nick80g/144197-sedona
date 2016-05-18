@@ -5,7 +5,7 @@
     <title>HTML Academy: Седона</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic" rel="stylesheet" type="text/css">
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-min.css" rel="stylesheet">
   </head>
   <body>
     <div class="container">
@@ -17,13 +17,11 @@
             <li><a href="#">Карта штата</a></li>
             <li><a href="catalog.html">Гостиницы</a></li>
           </ul>
-          <figure>
-            <a href="index.html"><img src="img/logo.png" class="logo" alt="logo"></a>
-          </figure>
+          <a href="index.html"><img src="img/logo.png" class="logo" alt="logo" width="138" height="70"></a>
         </nav>
         <div class="background">
           <figure class="welcome">
-            <img src="img/welcome.png" class="text" alt="welcome">
+            <img src="img/welcome.png" class="text" alt="welcome" width="458" height="352">
           </figure>
         </div>
       </header>
@@ -123,12 +121,12 @@
             <div class="form-center">
               <div class="form-row clearfix">
                 <div class="calendar"></div>
-                <span class="date-text">Дата заезда:</span>
+                <label for="first-date" class="date-text">Дата заезда:</label>
                 <input type="text" name="first-date" id="first-date" placeholder="24 апреля 2016">
               </div>
               <div class="form-row clearfix">
                 <div class="calendar"></div>
-                <span class="date-text">Дата выезда:</span>
+                <label for="second-date" class="date-text">Дата выезда:</label>
                 <input type="text" name="second-date" id="second-date"  placeholder="4 июля 2016">
               </div>
               <div class="form-row clearfix">
@@ -143,20 +141,6 @@
         </div>
       </main>
     </div>
-    <script>
-      var link = document.querySelector(".search");
-
-      var popup = document.querySelector(".search-hotel");
-      var close = popup.querySelector(".btn-search");
-
-      link.addEventListener("click",function(event) {
-        event.preventDefault();
-        popup.classList.add("search-hotel-show");
-      });
-      close.addEventListener("click", function(event) {
-        event.preventDefault();
-        popup.classList.remove("search-hotel-show");
-      });
-    </script>
+    <script src="js/script-min.js"></script>
   </body>
 </html>
